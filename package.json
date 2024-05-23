@@ -197,7 +197,7 @@
     "write-file-atomic"
   ],
   "devDependencies": {
-    "@npmcli%2fdocs": "^1.0.0",
+    "@npmcli/docs": "^1.0.0",
     "@npmcli/eslint-config": "^4.0.2",
     "@npmcli/git": "^5.0.5",
     "@npmcli/mock-globals": "^1.0.0",
