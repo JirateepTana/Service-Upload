@@ -9,13 +9,7 @@ pipeline {
                 }
             }
         }
-        stage('Install Dependencies') {
-            steps {
-                script {
-                    bat 'npm install'  // Or 'yarn install' if you use yarn
-                }
-            }
-        }
+
         stage('Build and Test') {
             steps {
                 script {
